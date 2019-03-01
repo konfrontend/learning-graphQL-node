@@ -1,21 +1,25 @@
 {
-  "name": "learning-graphQL-node",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/konfrontend/learning-graphQL-node.git",
-  "author": "Konstantin Dolbilov <dolbilov@galaxy-labs.ru>",
-  "license": "MIT",
-  "scripts": {
-    "serve": "node src/index.js",
-    "prisma": "prisma deploy"
-  },
+  "name": "react-apollo",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "global": "^4.3.2",
-    "graphql-cli": "^3.0.11",
-    "graphql-yoga": "^1.17.4",
-    "jsonwebtoken": "^8.5.0",
-    "prisma": "^1.27.3",
-    "prisma-client-lib": "^1.27.3"
-  }
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

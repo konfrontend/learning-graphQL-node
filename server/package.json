@@ -1,0 +1,21 @@
+{
+  "name": "learning-graphQL-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/konfrontend/learning-graphQL-node.git",
+  "author": "Konstantin Dolbilov <dolbilov@galaxy-labs.ru>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node src/index.js",
+    "prisma": "prisma deploy"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "global": "^4.3.2",
+    "graphql-cli": "^3.0.11",
+    "graphql-yoga": "^1.17.4",
+    "jsonwebtoken": "^8.5.0",
+    "prisma": "^1.27.3",
+    "prisma-client-lib": "^1.27.3"
+  }
+}
